@@ -22,5 +22,5 @@ const markup = (arr) => {
     )
     .join("");
 };
-console.log(markup(images));
+
 gallery.insertAdjacentHTML("afterbegin", markup(images));

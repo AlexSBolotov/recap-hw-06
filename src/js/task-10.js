@@ -30,6 +30,5 @@ const onDestroyClick = () => {
   refs.parentDiv.innerHTML = "";
   refs.input.value = "";
 };
-
 refs.createBtn.addEventListener("click", onCreateClick);
 refs.destroyBtn.addEventListener("click", onDestroyClick);
