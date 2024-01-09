@@ -1,12 +1,10 @@
 const ctrDiv = document.querySelector("#controls");
-
 const refs = {
   input: ctrDiv.querySelector("input"),
   createBtn: ctrDiv.querySelector("[data-create]"),
   destroyBtn: ctrDiv.querySelector("[data-destroy]"),
   parentDiv: document.querySelector("#boxes"),
 };
-
 const getRandomHexColor = () => {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
